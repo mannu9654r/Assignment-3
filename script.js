@@ -4,7 +4,7 @@ let input = document.getElementById("nameInput");
 let boxes = document.querySelectorAll(".box");
 
 btn.addEventListener("click", function () {
-    let name = input.value;
+    let name = input.value.trim();
 
     if (name === "") {
         heading.innerText = "Hello";
